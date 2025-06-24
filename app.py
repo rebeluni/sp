@@ -1,5 +1,10 @@
 import os
 import sys
+import streamlit as st
+from datetime import datetime
+import json
+import time
+import random
 
 # === BULLETPROOF DEPENDENCY HANDLING ===
 def setup_environment():
@@ -29,31 +34,8 @@ nltk, TextBlob = setup_environment()
 nltk.download('punkt', quiet=True)
 nltk.download('averaged_perceptron_tagger', quiet=True)
 
-# === VERIFICATION CODE ===
-import streamlit as st
-st.write("NLTK version:", nltk.__version__)
-st.write("TextBlob working:", TextBlob("I love this").sentiment)
-
-# === REST OF YOUR ORIGINAL APP CODE BELOW ===
-# [Your existing authentication and app code goes here]
-
-# === REST OF YOUR APP CODE BELOW ===
-
-# REST OF YOUR ORIGINAL APP CODE FOLLOWS...
-
-import streamlit as st
-from datetime import datetime
-import json
-import time
-import random
-from textblob import TextBlob
-
-
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
-
 # ============= CONFIGURATION =============
-BIRTHDAY = (6, 25)  # June 23
+BIRTHDAY = (6, 25)  # June 25
 CREDENTIALS = {"username": "peterparker", "password": "withgreatpower"}
 
 # ============= STREAMLIT CONFIG =============
@@ -204,7 +186,7 @@ def main():
     today = datetime.now().date()
     is_bday = today.month == BIRTHDAY[0] and today.day == BIRTHDAY[1]
     
-    # Birthday Special
+    # Birthday Special - WILL ACTIVATE ON JUNE 25
     if is_bday:
         st.balloons()
         st.markdown("""
