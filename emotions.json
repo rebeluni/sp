@@ -1,0 +1,39 @@
+{
+  "happy": {
+    "title": "When You're Web-Slinging High!",
+    "message": "Your smile is brighter than Times Square at night! Just like Spidey saving the day, your happiness is contagious!",
+    "note": "I'd take you swinging through the city right now if I could!"
+  },
+  "sad": {
+    "title": "When the Suit Feels Heavy",
+    "message": "Even Spider-Man has days when the mask feels too heavy. Wrap yourself in this virtual hug - tighter than Doc Ock's tentacles but way more comforting!",
+    "note": "I saved the last piece of Aunt May's wheatcakes for this moment."
+  },
+  "angry": {
+    "title": "When Someone Stole Your Pizza",
+    "message": "Channel that inner Hulk energy! Want me to send you funny memes of J. Jonah Jameson or should we roast the situation together?",
+    "note": "P.S. It was me. I ate your pizza. I'm sorry."
+  },
+  "nostalgic": {
+    "title": "When You Miss Our Earlier Days",
+    "message": "Remember when we first met? You were more awkward than Peter Parker asking out MJ. Now look at us - your nerdy charm worked its magic!",
+    "note": "I kept your first text message. It was terrible. I love it."
+  },
+  "birthday": {
+    "title": "SPECIAL BIRTHDAY MESSAGE!",
+    "message": "Happy Birthday to my favorite web-head! Today we celebrate YOU - the amazing person who saves my day more than Spidey saves NYC! ",
+    "note": "im sorry, you deserve so much better than this stupid app but atleast we moved a step up from the html-css web news page ;-; "
+  },
+  "default": {
+    "title": "Just Because",
+    "message": "No matter what mood you're in today, just know: if you were a Marvel character, you'd definitely be the hero who gets the happy ending.",
+    "note": "Yes, this is my way of saying I think you're awesome."
+  },
+  "memories": [
+    "we stayed up until 3am watching Spider-Verse movies",
+    "you tried to cook and set off the smoke alarm",
+    "we got caught in the rain and danced instead of running",
+    "you talked about radioactive spiders for 20 minutes straight",
+    "we slow-danced in the kitchen to no music at 2am"
+  ]
+}
